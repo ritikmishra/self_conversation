@@ -1,17 +1,54 @@
 .App {
-  text-align: center;
-}
-
-.App-header {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-bottom: 100px;
+}
+
+.message {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 3px;
+}
+
+.left {
+  align-self: flex-start;
+}
+
+.right {
+  align-self: flex-end;
 }
 
 .leftMessage {
-  background-color: aqua;
+  background-color: rgb(33, 33, 174);
+  align-self: flex-start;
+}
+
+.rightMessage {
+  background-color: rebeccapurple;
+  align-self: flex-end;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.submitArea {
+  width: min-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timestamp {
+  opacity: 0.6;
+  font-size: 0.7rem;
 }
