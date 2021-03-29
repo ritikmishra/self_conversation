@@ -15,6 +15,8 @@
   padding: 0.5rem;
   border-radius: 0.5rem;
   margin-bottom: 3px;
+  max-width: 25vw;
+  line-height: 150%;
 }
 
 .left {
