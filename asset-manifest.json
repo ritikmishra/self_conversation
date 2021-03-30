@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "https://ritikmishra.github.io/self_conversation/static/css/main.bf0d37c0.chunk.css",
+    "main.js": "https://ritikmishra.github.io/self_conversation/static/js/main.c6d136d4.chunk.js",
+    "main.js.map": "https://ritikmishra.github.io/self_conversation/static/js/main.c6d136d4.chunk.js.map",
+    "runtime-main.js": "https://ritikmishra.github.io/self_conversation/static/js/runtime-main.9d257b45.js",
+    "runtime-main.js.map": "https://ritikmishra.github.io/self_conversation/static/js/runtime-main.9d257b45.js.map",
+    "static/js/2.874fa4b3.chunk.js": "https://ritikmishra.github.io/self_conversation/static/js/2.874fa4b3.chunk.js",
+    "static/js/2.874fa4b3.chunk.js.map": "https://ritikmishra.github.io/self_conversation/static/js/2.874fa4b3.chunk.js.map",
+    "static/js/3.b12440b3.chunk.js": "https://ritikmishra.github.io/self_conversation/static/js/3.b12440b3.chunk.js",
+    "static/js/3.b12440b3.chunk.js.map": "https://ritikmishra.github.io/self_conversation/static/js/3.b12440b3.chunk.js.map",
+    "index.html": "https://ritikmishra.github.io/self_conversation/index.html",
+    "static/css/main.bf0d37c0.chunk.css.map": "https://ritikmishra.github.io/self_conversation/static/css/main.bf0d37c0.chunk.css.map",
+    "static/js/2.874fa4b3.chunk.js.LICENSE.txt": "https://ritikmishra.github.io/self_conversation/static/js/2.874fa4b3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d257b45.js",
+    "static/js/2.874fa4b3.chunk.js",
+    "static/css/main.bf0d37c0.chunk.css",
+    "static/js/main.c6d136d4.chunk.js"
+  ]
+}
