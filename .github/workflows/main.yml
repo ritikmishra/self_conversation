@@ -29,6 +29,8 @@ jobs:
         
       - name: Build react app
         run: npm run build
+        env:
+          PUBLIC_URL: https://ritikmishra.github.io/self_conversation
         
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.3.0
