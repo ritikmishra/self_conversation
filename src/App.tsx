@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./App.css";
 import zango from "zangodb";
-import { compareAsc, compareDesc, formatDistanceToNow } from "date-fns";
+import { compareAsc, formatDistanceToNow } from "date-fns";
 
 interface Message {
     _id: string;
@@ -92,7 +92,7 @@ const App: React.FC = () => {
     return (
         <div className="App">
             <div className="messages">
-                {messages.map((message, i) => <MessageComponent key={message._id} message={message} />)}
+                {messages.map(message => <MessageComponent key={message._id} message={message} />)}
                 <div ref={bottomRef}></div> {/* dummy div used to scroll to the bottom */}
             </div>
             <div className="footer">
