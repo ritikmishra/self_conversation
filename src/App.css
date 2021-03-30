@@ -16,6 +16,7 @@
   border-radius: 0.5rem;
   margin-bottom: 3px;
   max-width: 25vw;
+  overflow-wrap: anywhere;
   line-height: 150%;
 }
 
@@ -44,13 +45,49 @@
 }
 
 .submitArea {
-  width: min-content;
-  display: block;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1rem;
 }
 
 .timestamp {
   opacity: 0.6;
   font-size: 0.7rem;
+}
+
+.submitButton {
+  all: unset;
+  background-color: cadetblue;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  
+  text-align: center;
+  transition-property: filter;
+  transition-duration: 200ms;
+
+  margin-left: 1rem;
+}
+
+.submitButton:hover {
+  filter: brightness(0.8);
+}
+
+.submitButton:active {
+  filter: brightness(0.6);
+}
+
+.submitTextArea {
+  all: unset;
+
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  background-color: #282c34;
 }

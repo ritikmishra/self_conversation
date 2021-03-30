@@ -97,10 +97,10 @@ const App: React.FC = () => {
             </div>
             <div className="footer">
                 <div className="submitArea">
-                    <textarea ref={textareaRef} value={textBoxMessage} placeholder="What are you going to say to yourself?" onChange={event => setTextBoxMessage(event.target.value)} onKeyPress={(e) => e.key === "Enter" && addMessageEventHandler()}>
+                    <textarea className="submitTextArea" ref={textareaRef} value={textBoxMessage} placeholder="What are you going to say to yourself?" onChange={event => setTextBoxMessage(event.target.value)} onKeyPress={(e) => e.key === "Enter" && addMessageEventHandler()}>
 
                     </textarea>
-                    <button onClick={addMessageEventHandler}>Add Message</button>
+                    <button className="submitButton" onClick={addMessageEventHandler}>Add Message</button>
                 </div>
             </div>
         </div>
